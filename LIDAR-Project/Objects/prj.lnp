@@ -1,0 +1,13 @@
+--cpu ARM7TDMI
+".\objects\startup.o"
+".\objects\i2c_communication.o"
+".\objects\lidar.o"
+".\objects\main.o"
+".\objects\retarget.o"
+".\objects\timer.o"
+".\objects\uart0.o"
+".\objects\sonar.o"
+--strict --scatter ".\Objects\prj.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\prj.map" -o .\Objects\prj.axf

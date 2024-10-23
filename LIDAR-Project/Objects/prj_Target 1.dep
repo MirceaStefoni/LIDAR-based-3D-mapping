@@ -1,0 +1,59 @@
+Dependencies for Project 'prj', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\Startup.s)(0x65F416C5)(--cpu ARM7TDMI -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 529"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\DEBUG_HEADER.h)(0x65E6E502)()
+F (.\I2C_COMMUNICATION.c)(0x66431882)(--c99 --gnu -c --cpu ARM7TDMI -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\i2c_communication.o --omf_browse .\objects\i2c_communication.crf --depend .\objects\i2c_communication.d)
+I (I2C_COMMUNICATION.h)(0x65E6E502)
+I (C:\Keil_v5\ARM\INC\Philips\lpc22xx.h)(0x559D2158)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B186A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B1868)
+I (DEBUG_HEADER.h)(0x65E6E502)
+F (.\I2C_COMMUNICATION.h)(0x65E6E502)()
+F (.\lidar.c)(0x65F01F66)(--c99 --gnu -c --cpu ARM7TDMI -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\lidar.o --omf_browse .\objects\lidar.crf --depend .\objects\lidar.d)
+I (lidar.h)(0x65E6E502)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B1868)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B186A)
+I (C:\Keil_v5\ARM\INC\Philips\lpc22xx.h)(0x559D2158)
+I (I2C_COMMUNICATION.h)(0x65E6E502)
+I (DEBUG_HEADER.h)(0x65E6E502)
+F (.\lidar.h)(0x65E6E502)()
+F (.\main.c)(0x664EF550)(--c99 --gnu -c --cpu ARM7TDMI -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B186A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B1868)
+I (C:\Keil_v5\ARM\INC\Philips\lpc22xx.h)(0x559D2158)
+I (UART0.h)(0x65F41DE4)
+I (DEBUG_HEADER.h)(0x65E6E502)
+I (TIMER.h)(0x65E6E502)
+I (I2C_COMMUNICATION.h)(0x65E6E502)
+I (Lidar.h)(0x65E6E502)
+I (SONAR.h)(0x65F41F50)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9B1862)
+F (.\Retarget.c)(0x65F018A3)(--c99 --gnu -c --cpu ARM7TDMI -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\retarget.o --omf_browse .\objects\retarget.crf --depend .\objects\retarget.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B186A)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x5D9B1862)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B1868)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B1868)
+I (UART0.h)(0x65F41DE4)
+I (C:\Keil_v5\ARM\INC\Philips\lpc22xx.h)(0x559D2158)
+I (DEBUG_HEADER.h)(0x65E6E502)
+F (.\TIMER.c)(0x65F41681)(--c99 --gnu -c --cpu ARM7TDMI -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (TIMER.h)(0x65E6E502)
+I (C:\Keil_v5\ARM\INC\Philips\lpc22xx.h)(0x559D2158)
+I (DEBUG_HEADER.h)(0x65E6E502)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B186A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B1868)
+F (.\TIMER.h)(0x65E6E502)()
+F (.\UART0.c)(0x66068F57)(--c99 --gnu -c --cpu ARM7TDMI -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\uart0.o --omf_browse .\objects\uart0.crf --depend .\objects\uart0.d)
+I (UART0.h)(0x65F41DE4)
+I (C:\Keil_v5\ARM\INC\Philips\lpc22xx.h)(0x559D2158)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B1868)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B186A)
+I (DEBUG_HEADER.h)(0x65E6E502)
+F (.\UART0.h)(0x65F41DE4)()
+F (.\SONAR.c)(0x65F42523)(--c99 --gnu -c --cpu ARM7TDMI -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\sonar.o --omf_browse .\objects\sonar.crf --depend .\objects\sonar.d)
+I (SONAR.h)(0x65F41F50)
+I (C:\Keil_v5\ARM\INC\Philips\lpc22xx.h)(0x559D2158)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B1868)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B186A)
+I (DEBUG_HEADER.h)(0x65E6E502)
+F (.\SONAR.h)(0x65F41F50)()
